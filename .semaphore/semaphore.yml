@@ -22,7 +22,6 @@ blocks:
         - name: Unit tests
           commands:
             - cd martor_demo
-            - pip install martor
             - python manage.py makemigrations
             - python manage.py migrate
             - python manage.py test
